@@ -1,17 +1,23 @@
-#1) Crear un programa que imprima por pantalla el mensaje: “Hola Mundo!”
+#1) Crear un programa que imprima por pantalla el mensaje: “Hola Mundo!”.
 print("Hola mundo")
 print()
+print("___________________________________________")
+print()
+
 
 
 # 2) Crear un programa que pida al usuario su nombre e imprima por pantalla un saludo usando
 # el nombre ingresado. Por ejemplo: si el usuario ingresa “Marcos”, el programa debe imprimir
 # por pantalla “Hola Marcos!”. Consejo: esto será más sencillo si utilizas print(f…) para
-# realizar la impresión por pantalla
+# realizar la impresión por pantalla.
 
 nombre_del_usuario = input("Ingresa tu nombre porfavor ")
 print()
 print(f' ¡Hola {nombre_del_usuario}!')
 print()
+print("___________________________________________")
+print()
+
 
 
 # 3) Crear un programa que pida al usuario su nombre, apellido, edad y lugar de residencia e
@@ -31,6 +37,8 @@ print()
 
 print(f'Soy {nombre_1} {apellido_1}, tengo {edad} años y vivo en {residencia}')
 print()
+print("___________________________________________")
+print()
 
 
 # 4) Crear un programa que pida al usuario el radio de un círculo e imprima por pantalla su área y
@@ -42,6 +50,8 @@ area = 3.14 * (radio*radio)
 perimetro = 2 * 3.14 * radio
 print(f'El area del circulo con el radio que ingresaste es {area}cm y su perimetro es {perimetro}cm')
 print()
+print("___________________________________________")
+print()
 
 
 # 5) Crear un programa que pida al usuario una cantidad de segundos e imprima por pantalla a
@@ -51,6 +61,8 @@ segundos = int(input("Porfavor ingresa la cantidad de segundos que desees "))
 print()
 horas = segundos / 3600
 print(f'La cantidad de horas según los segundos que ingresaste equivale a: {horas} horas')
+print()
+print("___________________________________________")
 print()
 
 
@@ -85,6 +97,8 @@ print(f'{numero_tabla}*8 = {multiplicar_8}')
 print(f'{numero_tabla}*9 = {multiplicar_9}')
 print(f'{numero_tabla}*10 = {multiplicar_10}')
 print()
+print("___________________________________________")
+print()
 
 
 
@@ -109,7 +123,8 @@ print(f'La multiplicación de {numero_operaciones0} y {numero_operaciones1} es: 
 print()
 print(f'La resta de {numero_operaciones0} y {numero_operaciones1} es: {resta}')
 print()
-
+print("___________________________________________")
+print()
 
 
 # 8) Crear un programa que pida al usuario su altura y su peso e imprima por pantalla su índice
@@ -124,6 +139,8 @@ indice_de_masa = peso/(altura*altura)
 
 print(f'Tu índice de masa corporal es: {indice_de_masa}')
 print()
+print("___________________________________________")
+print()
 
 
 
@@ -135,6 +152,8 @@ print()
 temperatura_fahrenheit = 9/5 * temperatura_celsius + 32
 
 print(f'{temperatura_celsius}° Celsius equivalen a {temperatura_fahrenheit}° Fahrenheit')
+print()
+print("___________________________________________")
 print()
 
 
@@ -151,4 +170,6 @@ print()
 
 promedio = (numero_prome_1 + numero_prome_2 + numero_prome_3) / 3
 print(f'El promedio entre {numero_prome_1}, {numero_prome_2} y {numero_prome_3} es: {promedio}')
+print()
+print("___________________________________________")
 print()
