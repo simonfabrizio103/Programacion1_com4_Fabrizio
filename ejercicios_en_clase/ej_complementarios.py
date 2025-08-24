@@ -1,4 +1,4 @@
-# Creación de variables "numero1" como entero y "numero2" como decimal
+# Creación de variables "numero1" como entero y "numero2" como decimal.
 numero1 = 600
 numero2 = 98.5
 
@@ -12,7 +12,7 @@ print()
 
 
 
-# Creación de las operaciones "suma", "resta", "multiplicación" y "división"
+# Creación de las operaciones "suma", "resta", "multiplicación" y "división".
 suma = numero1 + numero2
 resta = numero1 - numero2
 multiplicacion = numero1 * numero2
@@ -42,7 +42,7 @@ print()
 
 
 # Creación de la variable "precio" y "descuento", luego multiplicamos la variable "descuento" a la variable "precio"
-# y asi obtenemos el descuento, el cual guardamos en la variable "precio_final"
+# y asi obtenemos el descuento, el cual guardamos en la variable "precio_final".
 precio = 200.0
 descuento = 0.25
 
@@ -60,7 +60,7 @@ print()
 
 
 
-# Creación de la variable "cadena" y "longitud", la cual almacena la longitud de la variable cadena
+# Creación de la variable "cadena" y "longitud", la cual almacena la longitud de la variable cadena.
 cadena = "me gusta la música"
 longitud = len(cadena)
 print("cadena: ",cadena)
@@ -72,7 +72,7 @@ print()
 
 
 
-# Cración de la variable "precio" y parseo de "float" a "int"
+# Cración de la variable "precio" y parseo de "float" a "int".
 precio = int(555.5)
 print("precio: ",precio)
 print()
@@ -81,7 +81,7 @@ print()
 
 
 
-# Concatenación de las variables "nombre" y "apellido", arroja un string que almacenamos en la variable "nombre_completo"
+# Concatenación de las variables "nombre" y "apellido", arroja un string que almacenamos en la variable "nombre_completo".
 nombre = "Roberto"
 apellido = "Ramirez"
 print("nombre: ",nombre)
@@ -95,7 +95,7 @@ print("___________________________________________")
 print()
 
 
-# Cración de la variable "edad" y sus respectivas operaciones
+# Cración de la variable "edad" y sus respectivas operaciones.
 edad = 21 + 5 - 10
 print("edad: ",edad)
 print()
@@ -103,7 +103,7 @@ print()
 
 
 
-# Creación de la variable "altura" y sus respectivas operaciones
+# Creación de la variable "altura" y sus respectivas operaciones.
 altura = 1.73 * 4 / 3
 print("altura: ",altura)
 print("___________________________________________")
@@ -111,7 +111,7 @@ print()
 
 
 
-# Creación de la variable "mi_nombre" en mayusculas y transformación de la misma a minusculas
+# Creación de la variable "mi_nombre" en mayusculas y transformación de la misma a minusculas.
 mi_nombre = "FABRIZIO"
 print("mi nombre en mayusculas: ",mi_nombre)
 mi_nombre_minusculas = mi_nombre.lower()
@@ -120,7 +120,7 @@ print("mi nombre en minusculas: ",mi_nombre_minusculas)
 
 
 
-# Tranformamos a minusculas la variable "mi_nombre" exceptuando la primera letra
+# Tranformamos a minusculas la variable "mi_nombre" exceptuando la primera letra.
 mi_nombre_final = mi_nombre_minusculas.capitalize()
 print()
 print("mi nombre en minusculas excepto la primera letra: ",mi_nombre_final)
