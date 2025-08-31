@@ -73,7 +73,7 @@ if(semana[0]==dia or semana[1]==dia or semana[2]==dia):
     if(semana[1]==dia):
         print("Usted ingresó el nivel intermedio")
         print()
-    if(semana[1]==dia):
+    if(semana[2]==dia):
         print("Usted ingresó el nivel avanzado")      
     print()
     aprobados = int(input("Porfavor ingrese la cantidad de alumnos aprobados "))
