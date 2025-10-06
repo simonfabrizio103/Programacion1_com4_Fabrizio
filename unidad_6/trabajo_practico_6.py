@@ -2,7 +2,7 @@ import math
 
 # 1. Crear una función llamada imprimir_hola_mundo que imprima por
 # pantalla el mensaje: “Hola Mundo!”.
-def imprimir():
+def imprimir_hola_mundo():
     print("Hola Mundo!")
 
 
@@ -103,7 +103,7 @@ def calcular_promedio(a,b,c):
     return promedio
 
 # 1
-imprimir()
+imprimir_hola_mundo()
 
 
 
